@@ -17,7 +17,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
-  background: var(--background-buttontext-hover);
 }
 .logo {
   font-weight: 800;
@@ -28,115 +27,87 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--primary-brand);
+  margin-right: 76px;
+  outline: 2px solid tomato;
 }
 .list {
   list-style-type: none;
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
+
+.list-features {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
 .logo-header {
   color: var(--dark);
+  outline: 2px solid tomato;
 }
 .list-links {
   font-weight: 500;
   color: currentColor;
   text-decoration: none;
+  outline: 2px solid tomato;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .list-links:hover,
 .list-links:focus {
   text-decoration: none;
   color: var(--pressed-state);
 }
-.list-address {
+.address-mail {
   color: var(--text);
   text-decoration: none;
   font-style: normal;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
-.list-address:hover,
-.list-address:focus {
+.address {
+  margin-top: 24px;
+  margin-left: 40px;
+  margin-bottom: 24px;
+  padding: 0;
+  outline: 2px solid tomato;
+}
+
+.address-mail:hover,
+.address-mail:focus,
+.address-phone:hover,
+.address-phone:focus {
   text-decoration: none;
   color: var(--pressed-state);
 }
-
-.list-button-all {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand);
-  background: var(--light);
-  border: 1px solid var(--accent);
-  cursor: pointer;
-}
-
-.list-button-web {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand);
-  background: var(--light);
-  border: 1px solid var(--accent);
-  cursor: pointer;
-}
-
-.list-button-app {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand);
-  background: var(--light);
-  border: 1px solid var(--accent);
-  cursor: pointer;
-}
-
-.list-button-design {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand);
-  background: var(--light);
-  border: 1px solid var(--accent);
-  cursor: pointer;
-}
-
-.list-button-marketing {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand);
-  background: var(--light);
-  border: 1px solid var(--accent);
-  cursor: pointer;
-}
-.list-button-all:hover,
-.list-button-all:focus,
-.list-button-web:hover,
-.list-button-web:focus,
-.list-button-app:hover,
-.list-button-app:focus,
-.list-button-design:hover,
-.list-button-design:focus,
-.list-button-marketing:hover,
-.list-button-marketing:focus {
+.list-btns:hover,
+.list-btns:focus {
   background: var(--pressed-state);
   color: var(--background-buttontext-hover);
 }
 .section-one {
   background: var(--dark);
+  padding: 188px 0;
+  outline: 2px solid tomato;
+  text-align: center;
 }
+
 .main-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--background-buttontext-hover);
+  outline: 2px solid tomato;
+  width: 500px;
+  margin: 0 auto 48px auto;
 }
+
 .main-button {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -146,42 +117,93 @@ body {
   color: var(--background-buttontext-hover);
   background: var(--primary-brand);
   cursor: pointer;
+  padding: 16px 32px;
+  border: 0;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0;
+  outline: 2px solid tomato;
 }
 .main-button:hover,
 .main-button:focus {
   background: var(--pressed-state);
 }
+.section-two {
+  outline: 2px solid tomato;
+  padding: 120px 0;
+}
+
 .list-img-title-features {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  margin: 0;
+  outline: 2px solid tomato;
 }
 .list-img-title-features-text {
   color: var(--text);
+  padding-left: 16px;
+  margin: 0;
+  outline: 2px solid tomato;
+}
+.section-three {
+  padding-top: 0;
+  padding-bottom: 120px;
 }
 .what-are-we-doing {
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
+  outline: 2px solid tomato;
+  text-align: center;
+  padding-bottom: 72px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .section-four {
   background: var(--light);
+  padding-bottom: 120px;
+  left: 0px;
+  top: 1548px;
+  outline: 2px solid tomato;
 }
 .our-team {
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 72px;
+  margin: 0;
+  outline: 2px solid tomato;
 }
 .list-img-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  margin: 0;
 }
 .list-img-name-profession {
   color: var(--text);
+  padding-bottom: 32px;
+  margin: 0;
 }
 .footer {
   background: var(--dark);
+}
+.footer-div {
+  width: 264px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0;
+  margin-right: auto;
+
+  outline: 2px solid tomato;
 }
 .logo-footer {
   font-family: Raleway, sans-serif;
@@ -198,14 +220,124 @@ body {
 }
 .quotation {
   color: var(--accent);
+  margin: 0;
+  padding-top: 16px;
 }
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
   position: absolute;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.header {
+  border: 1px solid var(--accent);
+  outline: 2px solid tomato;
+}
+.links-header {
+  display: flex;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  gap: 40px;
+  outline: 2px solid tomato;
+}
+
+.container {
+  width: 1128px;
+  outline: 2px solid tomato;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-div {
+  display: flex;
+  outline: 2px solid tomato;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  outline: 2px solid tomato;
+}
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.section-three-img {
+  outline: 2px solid tomato;
+  padding: 0;
+  border: 1px solid var(--accent);
+}
+.card-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.card-image.no-gap {
+  display: block;
+}
+.filter-btns {
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  justify-content: center;
+  outline: 2px solid tomato;
+}
+.list-btns:hover,
+.list-btns:focus {
+  background: var(--pressed-state);
+  color: var(--background-buttontext-hover);
+}
+.list-btns {
+  outline: 2px solid tomato;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+.card-image {
+  outline: 2px solid tomato;
+  display: flex;
+  gap: 24px;
+  max-width: 100%;
+  height: auto;
+}
+.menu-img {
+  outline: 2px solid tomato;
+  flex-wrap: wrap;
+  display: flex;
+}
+.list-menu-img {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+.list-section-four {
+  text-align: center;
+  background-color: var(--background-buttontext-hover);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  outline: 2px solid tomato;
+}
+.list-menu-img-text {
+  padding: 32px 0;
+  outline: 2px solid tomato;
+  background: var(--background-buttontext-hover);
+  border: 1px solid var(--accent);
+}
+.main-portfolio {
+  padding-bottom: 120px;
+  outline: 2px solid tomato;
 }
