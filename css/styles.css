@@ -18,6 +18,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .logo {
   font-weight: 800;
   font-family: Raleway, sans-serif;
@@ -256,11 +261,6 @@ body {
 .contacts {
   display: flex;
   margin-left: auto;
-}
-.card-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 .card-image.no-gap {
   display: block;
