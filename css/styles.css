@@ -62,9 +62,12 @@ img {
   font-style: normal;
 }
 .address {
-  margin-left: 40px;
+  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.address:not(:first-child) {
+  margin-right: 0;
 }
 
 .address-mail:hover,
@@ -190,8 +193,8 @@ img {
 }
 .quotation {
   color: var(--accent);
-  margin: 0;
-  padding-top: 16px;
+  margin-bottom: 0;
+  margin-top: 16px;
 }
 .visually-hidden {
   position: absolute;
@@ -218,6 +221,7 @@ img {
 .contacts-address {
   display: flex;
 }
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -249,11 +253,9 @@ img {
 .ul-our-team {
   display: flex;
 }
-
 .header-div {
   display: flex;
 }
-
 .navigation {
   display: flex;
   align-items: center;
@@ -300,11 +302,19 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.list-menu-img {
+
+.li-menu-img {
   flex-basis: calc((100% - 48px) / 3);
-  margin-right: 24px;
   margin-bottom: 40px;
+  margin-right: 24px;
 }
+.li-menu-img:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.li-menu-img:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
 .list-section-four {
   text-align: center;
   background-color: var(--background-buttontext-hover);
